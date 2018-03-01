@@ -1,3 +1,19 @@
+/** 
+    
+    dll.cpp
+    dsa
+    
+    Created by Yousuf Syed on 01/03/18.
+    Copyright © 2018 Yousuf Syed. All rights reserved.
+
+    standard implementaion of doubly linked list
+    operations : add_first, add_last, add_at_position and similar ops for delete
+
+    output : 12 4   2   2   1   5
+
+**/
+
+
 #include<iostream>
 using namespace std;
 
