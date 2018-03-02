@@ -16,14 +16,15 @@
 using namespace std;
 
 class bsort{
-private:
+
+ private:
     int input_array[MAX] = {1,8,4,6,0,3,5,2,7,9};
     bool swapped;
     int temp;
-public:
+
+ public:
+    
     void bubblesort(){
-        /**
-          */
         for(int j=0; j<MAX-1; j++){
             swapped = false;
            /** loops input_array : basically makes 9 comparisons. 1st two then compares (2nd & 3rd), and so on.
@@ -36,12 +37,13 @@ public:
                     input_array[i] = temp;
                 }
                 swapped = true;
-            }// inner loop
+            }
+            // breaks out when the array is completely sorted
             if(swapped == false) {
                 break;
             }
-        }// outer loop
-    }// bubblesort ends here
+        }
+    }
     
     void display(){
         for(int i=0; i<MAX; i++){
