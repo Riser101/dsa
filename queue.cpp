@@ -11,13 +11,13 @@
 using namespace std;
 
 class Q{
+
 private:
     int data_array[MAX];
     int rear = -1;
     int front = 0;
     int item_count = 0;
     
-public:
     bool is_empty(){
         return item_count == 0;
     }
@@ -25,7 +25,8 @@ public:
     bool is_full(){
         return item_count == MAX;
     }
-    
+
+public:
     void enqueue(int value){
         if(!is_full()){
             data_array[++rear] = value;
