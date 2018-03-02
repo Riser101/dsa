@@ -9,7 +9,7 @@
     standard implementaion of doubly linked list
     operations : add_first, add_last, add_at_position and similar ops for delete
 
-    output : 12 4   2   2   1   5
+    output : 12  4  2  2  1  5
 
 **/
 
