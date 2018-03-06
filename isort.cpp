@@ -47,4 +47,5 @@ int main(){
     isort obj;
     obj.insertion_sort();
     obj.display();
+    return 0;
 }
