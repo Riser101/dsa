@@ -1,4 +1,5 @@
 <?php
+
 class Node{
 	public $data;	
 	public $left;
